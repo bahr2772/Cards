@@ -4,13 +4,9 @@ public class Driver {
 
 	public static void main(String[] args) throws InterruptedException{
 
-
-		//	Hand handOut = new Hand();
-		//	handOut.deckCheck();
-
 		Scanner select = new Scanner(System.in);
 
-
+		Cards.class.toString();
 
 		System.out.println("Select a game: \n\t 1: War \n\t 0: Quit");
 		int x = select.nextInt();
@@ -21,16 +17,15 @@ public class Driver {
 					System.out.println("Have a nice Day");
 					break;
 
-					case 1:War start = new War();
-							start.getClass();
+					case 1:WarGame start = new WarGame();
+							start.Game();
 	}
-
-
-
 
 		select.close();
 
 
 }
+	
+	
 
 }
